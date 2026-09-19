@@ -1,4 +1,4 @@
-# HR Employee Attrition & Workforce Analytics
+# Project 03: HR Employee Attrition & Workforce Analytics
 **Portfolio project | Excel, SQL, Power BI, DAX | Fresher-friendly**
 
 ## Business scenario
