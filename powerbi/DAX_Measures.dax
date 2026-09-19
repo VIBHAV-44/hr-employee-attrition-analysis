@@ -1,0 +1,5 @@
+Total Employees = DISTINCTCOUNT(hr_employee_data[employee_id])
+Employees Left = CALCULATE([Total Employees], hr_employee_data[attrition] = "Yes")
+Attrition Rate % = DIVIDE([Employees Left], [Total Employees], 0)
+Average Monthly Income = AVERAGE(hr_employee_data[monthly_income])
+Average Tenure = AVERAGE(hr_employee_data[years_at_company])
